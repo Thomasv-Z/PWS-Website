@@ -1,0 +1,18 @@
+{
+  "name": "@thomasvanz/pws-reanimatie",
+  "version": "0.1.3",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/renderer-react": "^0.3.1",
+    "astro": "^0.21.12"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.0"
+  }
+}

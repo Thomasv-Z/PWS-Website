@@ -1,0 +1,41 @@
+---
+// Component Imports
+import MainLayout from '../layouts/MainLayout.astro';
+---
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<MainLayout title='EenVoor1Leven - Leren'>
+<body class="sub_page">
+  <!-- department section -->
+  <section class="department_section layout_padding">
+    <div class="department_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Leer <span>Reanimeren!</span>
+          </h2>
+          <p>
+            Asperiores sunt consectetur impedit nulla molestiae delectus repellat laborum dolores doloremque accusantium
+          </p>
+          <model-viewer
+            alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+            src="https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb"
+            ar ar-modes="scene-viewer webxr quick-look"
+            poster="https://modelviewer.dev/shared-assets/models/NeilArmstrong.webp"
+            seamless-poster shadow-intensity="1" camera-controls>
+          </model-viewer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<style lang="scss">
+  model-viewer {
+    margin-top: 5rem;
+    width: 75vh;
+    height: 100vh;
+  }
+</style>
+</body>
+
+
+</MainLayout>

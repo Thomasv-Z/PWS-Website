@@ -1,0 +1,301 @@
+---
+// Component Imports
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title='EenVoor1Leven - Home'>
+  <div class="hero_area">
+    <div class="hero_bg_box">
+      <img src={Astro.resolve('../../assets/images/hero-bg.png')} alt="">
+      
+    </div>
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      Kan <span>Jij</span> al reanimeren?
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quia sint repellendus autem perspiciatis labore excepturi, temporibus eligendi aliquid sapiente eius molestias voluptatem nemo ipsum eveniet aut sit recusandae nulla.
+                    </p>
+                    <div class="btn-box">
+                      <a href="/learn" class="btn1">
+                        Meer Weten
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      <span>Jij</span> kan het verschil maken!
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, soluta mollitia! Repudiandae debitis, veniam dolorum sequi ratione quos est quae corporis maiores qui doloremque nesciunt, iste molestias ab accusantium accusamus.
+                    </p>
+                    <div class="btn-box">
+                      <a href="/learn" class="btn1">
+                        Meer Weten
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+        </ol>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- Facts section -->
+  <section class="department_section layout_padding">
+    <div class="department_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Slaging van reanimatie
+          </h2>
+          <p>
+            Een hartstilstand buiten het ziekenhuis heeft een overlevingskans van bijna 1 op 4: 20 tot 25 mensen op de 100 die worden gereanimeerd, overleven.
+          </p>
+        </div>
+        <div class="row wow slow fadeInUp">
+          <div class="col-md-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src={Astro.resolve('../../assets/images/s1.png')} alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Hoevaak
+                </h5>
+                <p>
+                  In Nederland zijn er 8.000 reanimaties per jaar buiten het ziekenhuis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src={Astro.resolve('../../assets/images/s2.png')} alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Leeftijd
+                </h5>
+                <p>
+                  Gemiddelde leeftijd van iemand met een hartstilstand is 67 jaar
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src={Astro.resolve('../../assets/images/s3.png')} alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Tijd
+                </h5>
+                <p>
+                  Binnen 10 minuten overlijden mensen met een hartstilstand zonder reanimatie
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src={Astro.resolve('../../assets/images/s4.png')} alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Waar
+                </h5>
+                <p>
+                  70% van gevallen van een circulatiestilstand gebeurt in en rond het huis
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learn section -->
+  <section class="about_section layout_margin-bottom">
+    <div class="container  ">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box wow slow fadeIn">
+            <img src={Astro.resolve('../../assets/images/about-img.jpg')} alt="">
+          </div>
+        </div>
+        <div class="col-md-6 wow slow fadeInRight ">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Leer <span>Reanimeren</span>
+              </h2>
+            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eos tenetur. Accusamus asperiores delectus distinctio. Eaque totam veritatis voluptates blanditiis, at minus accusamus suscipit omnis odio commodi ut praesentium illo?</p>
+                <p>Eveniet necessitatibus nihil doloribus fugiat vero voluptates repellendus enim quis eaque officia iure a, saepe commodi eius quas possimus illum aut ipsa quidem fuga dolore est ducimus voluptatibus. Velit, numquam!</p>
+            <a href="/learn">
+              Meer Weten
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+
+  <section class="doctor_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Wie zijn wij
+        </h2>
+        <p class="col-md-10 mx-auto px-0">
+          Incilint sapiente illo quo praesentium officiis laudantium nostrum, ad adipisci cupiditate sit, quisquam aliquid. Officiis laudantium fuga ad voluptas aspernatur error fugiat quos facilis saepe quas fugit, beatae id quisquam.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mx-auto wow d2s slow zoomIn">
+          <div class="box">
+            <div class="img-box">
+              <img src={Astro.resolve('../../assets/images/d1.jpg')} alt="">
+            </div>
+            <div class="detail-box">
+              <div class="social_box">
+                <a href="">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+              </div>
+              <h5>
+                Thomas van Zuilen
+              </h5>
+              <h6 class="">
+                VWO 6
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mx-auto wow d2s slow zoomIn">
+          <div class="box">
+            <div class="img-box">
+              <img src={Astro.resolve('../../assets/images/d2.jpg')} alt="">
+            </div>
+            <div class="detail-box">
+              <div class="social_box">
+                <a href="">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+              </div>
+              <h5>
+                Robin Schraa
+              </h5>
+              <h6 class="">
+                VWO 6
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="/about">
+          Meer Weten
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end doctor section -->
+
+  <!-- contact section -->
+  <section class="contact_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Neem contact op
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container contact-form">
+            <form action="">
+                <div>
+                  <input type="text" placeholder="Uw naam" />
+                </div>
+                <div>
+                  <input type="text" placeholder="Telefoonnummer" />
+                </div>
+              <div>
+                <input type="email" placeholder="E-mail" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Bericht" />
+              </div>
+              <div class="btn_box">
+                <button>
+                  Verzenden
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container">
+            <div class="map wow fadeIn">
+              <div id="googleMap"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.3751063958416!2d5.712150299999999!3d52.5266471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c62afc66859531%3A0x586b006de213e7f!2sHet%20Copernicous!5e0!3m2!1snl!2snl!4v1639230132849!5m2!1snl!2snl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+</MainLayout>

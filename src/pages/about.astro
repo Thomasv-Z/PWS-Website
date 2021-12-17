@@ -1,0 +1,34 @@
+---
+// Component Imports
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title='EenVoor1Leven - Over Ons'>
+<!-- about section -->
+  <section class="about_section layout_padding">
+    <div class="container  ">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src={Astro.resolve('../../assets/images/about-img.jpg')} alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Over <span>Ons</span>
+              </h2>
+            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eos tenetur. Accusamus asperiores delectus distinctio. Eaque totam veritatis voluptates blanditiis, at minus accusamus suscipit omnis odio commodi ut praesentium illo?</p>
+                <p>Eveniet necessitatibus nihil doloribus fugiat vero voluptates repellendus enim quis eaque officia iure a, saepe commodi eius quas possimus illum aut ipsa quidem fuga dolore est ducimus voluptatibus. Velit, numquam!</p>
+            <a href="/about">
+            Meer Lezen
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- end about section -->
+</MainLayout>
